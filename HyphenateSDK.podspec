@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'HyphenateSDK'
-  spec.version      = '3.1.4'
+  spec.version      = '3.1.5'
   spec.license 	    = { :type => 'MIT', :file => 'LICENSE' }
   spec.summary      = 'An Objective-C client for IM service'
   spec.homepage     = 'https://github.com/easemob/hyphenate-cocoapods'
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.frameworks   = 'CoreMedia', 'AudioToolbox', 'AVFoundation', 'ImageIO', 'MobileCoreServices'
   spec.libraries    = 'c++', 'z', 'sqlite3', 'stdc++.6.0.9'
-  spec.vendored_libraries = ['HyphenateSDK/lib/libHyphenateSDK_*.a','HyphenateSDK/lib/3rdparty/*.a']
+  spec.vendored_libraries = ['HyphenateSDK/lib/libHyphenateSDK.a']
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC'}
 end
