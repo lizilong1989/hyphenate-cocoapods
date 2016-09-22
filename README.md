@@ -1,4 +1,4 @@
-# HyphenateSDK
+# HyphenateLite_CN
 
 
 环信iOS SDK(不包含语音通话)  CocoaPod repo
@@ -7,11 +7,11 @@
 
 1. Podfile 文件添加如下代码
 
-		pod 'HyphenateSDK'
+		pod 'HyphenateLite_CN'
 		
 2. 使用时, 需要引入头文件, 在 pch 预编译文件中, 引入头文件如下:
 
-		#import <HyphenateSDK/EMSDK.h>
+		#import <HyphenateLite_CN/EMSDK.h>
 		
 接下来, 就可以正常使用环信的所有功能啦.
 
